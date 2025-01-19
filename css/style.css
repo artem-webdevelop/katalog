@@ -1,0 +1,219 @@
+:root {
+  /* задаем цвет пагинации и расстояние снизу  */
+  
+  --swiper-pagination-bottom: 5px;
+  --swiper-theme-color: #920b0b;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url('https://s9.travelask.ru/system/images/files/000/336/892/wysiwyg_jpg/10452canada-landscape-map-wallpaper-3.jpg?1502197579') no-repeat center / cover;
+  height: 100vh;
+  
+}
+img {
+  object-fit: cover;
+ 
+}
+
+
+.section__contacts {
+  background: url("../img/bg/bg1.jpg") center center / cover no-repeat;
+  padding-top: 60px;
+}
+.section {
+  
+}
+
+.section__myworks {
+background-color: rgb(91, 96, 97);
+padding-top: 60px;
+
+}
+
+.forma {
+   background: url("../img/bg/bg1.jpg") center center / cover no-repeat;
+ }
+
+ .for {
+  background-color: #888383;
+  padding: 7px; 
+
+  margin: 5px;
+  
+}
+
+.dolgov {
+  padding-top: 70px;
+  font-size: 23px;
+
+  color:#180a0a;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+
+a {
+  font-family: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight:900;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  opacity: 0.8;
+}
+
+
+
+.biogr__me {
+    color:#fff;
+    max-width: 450px;
+    
+    font-size: 19px;
+    font-weight:700;
+    text-transform: uppercase;
+    background-color: rgb(5, 4, 22,0.6);
+    padding:0 15px 15px 15px;
+    margin-top: 120px;
+}
+
+.my__vid {
+    margin: 50px auto 10px auto;
+}
+
+.shank {
+    text-transform: uppercase;
+    text-align: center;
+    color:#fff;
+    font-size: 20px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+ 
+
+
+.footer {
+   
+    color: #fff;
+    
+   
+   
+  }
+
+  .contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    
+    
+  }
+
+  .cont__item1,
+  .cont__item2
+ {
+    margin-right: 40px;
+ }
+
+ .telefon__text {
+    text-align: center;
+    margin-top: 15px;
+    color:#fff;
+    font-weight: bold;
+ }
+
+ 
+
+ @import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+
+
+
+
+
+
+/* Swiper styles */
+
+
+.swiper {
+	background: rgba(6, 10, 10, 0.8);
+	position: relative;
+	margin: 0 auto;
+	max-width: 900px;
+  height: 500px;
+  padding-top: 5px;
+	padding-bottom: 5px !important;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+/* чтобы нельзя было выбрать при выделении */
+.no-select {
+	-webkit-user-select: none; /* Chrome/Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE/Edge */
+	user-select: none; /* Стандартный синтаксис */
+}
+
+
+/* вместо стрелок */
+.prev-next{
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	z-index: 100;
+	transform: translateX(-50%);
+	
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+	
+	color: rgb(78, 4, 14);
+	font-size: 5px;
+  background-color: rgba(8, 165, 165, 0.2);
+  
+}
+
+/* пагинация */
+
+.swiper-pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	
+}
+.swiper-pagination-bullet {
+	border-radius: 0;
+	opacity: 0.3;
+	width: 30px;
+	height: 4px;
+	
+} 
+.swiper-pagination-bullet-active {
+	opacity: 1;
+	height: 6px;
+	
+
+} 
+
+
