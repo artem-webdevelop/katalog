@@ -4,10 +4,11 @@
   --swiper-pagination-bottom: 5px;
   --swiper-theme-color: #920b0b;
 }
-body {
+body, html {
   font-family: 'Roboto', sans-serif;
   background: url('https://s9.travelask.ru/system/images/files/000/336/892/wysiwyg_jpg/10452canada-landscape-map-wallpaper-3.jpg?1502197579') no-repeat center / cover;
   height: 100vh;
+  overflow: hidden;	
   
 }
 img {
